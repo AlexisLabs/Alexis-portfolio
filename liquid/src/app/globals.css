@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  
+}
+
+h1{
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+
