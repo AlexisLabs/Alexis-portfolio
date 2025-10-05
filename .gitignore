@@ -1,27 +1,29 @@
+# Root & subproject node_modules
+/node_modules/
 liquid/node_modules/
-liquid/.next/
-liquid/.DS_Store
 
+# Build / output
+/dist/
+/build/
+/coverage/
+/liquid/.next/
+.next/
 
-
-# Node
-node_modules/
-dist/
-build/
-coverage/
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Environment (do not ignore .env.example)
-.env
+# Environment (keep .env.example in repo)
+/.env
 .env.local
 .env.*.local
 
-# Lockfiles
-# Keep pnpm-lock.yaml committed for reproducible installs
+# Lockfiles (keep for reproducible installs)
 # pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
 
 # Editor / IDE
 .vscode/
@@ -30,11 +32,12 @@ pnpm-debug.log*
 
 # macOS
 .DS_Store
+liquid/.DS_Store
 
 # TypeScript
 *.tsbuildinfo
 
-# Misc caches and tools
+# Misc caches and frameworks
 .cache/
+.pnpm-store/
 .svelte-kit/
-.next/
