@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
 @import "tailwindcss";
 
-
-:root {
-  --background: #ffffff;
-  
-}
-
 h1{
     font-family: "Caesar Dressing", system-ui;
     font-weight: 400;
@@ -15,7 +9,16 @@ h1{
 
 }
 
+html, body {
+  background-color: var(--background, #E8FFFF);
+  min-height: 100vh;
+}
 
 
-
-
+.Alexis {
+    border-radius: 40% 60% 65% 35% / 40% 35% 65% 60% ;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,5 +1,5 @@
-import TopRightNavBar from "./componets/nav";
-import IntroductionArea from "./componets/header";
+import TopRightNavBar from './componets/nav';
+import IntroductionArea from './componets/header';
 
 export default function Home() {
   return (

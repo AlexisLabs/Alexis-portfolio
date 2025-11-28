@@ -1,4 +1,4 @@
-import TopRightNavBar from '../componets/nav.jsx';
+import TopRightNavBar from '../../componets/nav.jsx';
 
 export default function Page() {
     return (
@@ -21,3 +21,4 @@ export default function Page() {
         </>
     );
 }
+

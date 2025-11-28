@@ -24,8 +24,8 @@ export default function TopRightNavBar() {
                             <span className="text-sm font-medium">Home</span>
                         </Link>
 
-                        <Link href="/timeline" className="text-gray-600 hover:text-purple-400 transition-colors duration-400 cursor-pointer">
-                            <span className="text-sm font-medium">Timeline</span>
+                        <Link href="/front-end/about-me" className="text-gray-600 hover:text-purple-400 transition-colors duration-400 cursor-pointer">
+                            <span className="text-sm font-medium">About Me</span>
                         </Link>
 
                         <a
@@ -47,7 +47,7 @@ export default function TopRightNavBar() {
                         </a>
 
 
-                        <Link href="/resume" className="text-gray-600 hover:text-purple-400 transition-colors duration-400 cursor-pointer">
+                        <Link href="/front-end/resume" className="text-gray-600 hover:text-purple-400 transition-colors duration-400 cursor-pointer">
                             <span className="text-sm font-medium">Resume</span>
                         </Link>
 
@@ -74,8 +74,7 @@ export default function TopRightNavBar() {
                         <span className="text-sm font-medium">Home</span>
                     </Link>
 
-                    <Link href="/timeline" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer" target="_blank"
-                            rel="noopener noreferrer">
+                    <Link href="/timeline" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
                         <span className="text-sm font-medium">Timeline</span>
                     </Link>
 
@@ -91,7 +90,7 @@ export default function TopRightNavBar() {
                         <span className="text-sm font-medium">LinkedIn</span>
                     </a>
 
-                    <Link href="/Resume" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
+                    <Link href="/resume" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
                         <span className="text-sm font-medium">Resume</span>
                     </Link>
                 </div>
