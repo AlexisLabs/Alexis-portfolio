@@ -74,7 +74,7 @@ export default function TopRightNavBar() {
                         <span className="text-sm font-medium">Home</span>
                     </Link>
 
-                    <Link href="/timeline" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
+                    <Link href="/front-end/about-me" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
                         <span className="text-sm font-medium">Timeline</span>
                     </Link>
 
@@ -90,7 +90,7 @@ export default function TopRightNavBar() {
                         <span className="text-sm font-medium">LinkedIn</span>
                     </a>
 
-                    <Link href="/resume" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
+                    <Link href="/front-end/resume" className="block px-3 py-2 text-gray-600 hover:text-purple-400 hover:bg-red-50/50 rounded-xl transition-all duration-200 cursor-pointer">
                         <span className="text-sm font-medium">Resume</span>
                     </Link>
                 </div>
